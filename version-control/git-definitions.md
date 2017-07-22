@@ -4,7 +4,7 @@
 
 * What is version control?  Why is it useful?
 
-Version control is a way to track changes within a given document or file. It allows for various configurations within a branch that can then be merged back into the original master file. This is useful because you can have various versions and work with multiple people, without harming the original source.
+Version control is a way to track changes within a given document or file. It allows for various configurations within a branch that can then be merged back into the original master file. This is useful because you can have various versions and work with multiple people, without harming the original file.
 
 * What is a branch and why would you use one?
 
