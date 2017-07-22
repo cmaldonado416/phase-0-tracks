@@ -17,3 +17,6 @@ A commit is a save point of a staged file. A good commit message describes what 
 * What is a merge conflict?
 
 A merge conflict occurs when there is a conflict with the content of the branch you are trying to merge and the version you are merging into. It could be that there is a conflict with a certain line, but at this point its important to communicate with the person who is working on the other file to decide how to resolve the the conflict.
+
+
+lalalalala im just adding something here
