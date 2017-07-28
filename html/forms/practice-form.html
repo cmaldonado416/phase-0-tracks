@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Form</title>
+</head>
+<body>
+
+<h1>Forms 101</h1>
+
+	<p>Let's get some practice makin' forms</p>
+
+<fieldset>
+
+<form name="About Your Life" action="success.html" method="post">
+	<div>	
+		<label>Name:</label>
+		<input type="text" name="Name">
+	</div>
+	<div>
+		<label>Last Name:</label>		
+		<input type="text" name="Last Name">
+	</div>
+	<div>
+		<label>Age:</label>
+		<input type="checkbox" name="21 or younger"> 21 or younger
+		<input type="checkbox" name="22 or older" > 21 or older
+		&nbsp;
+		<label>My Actual Age:</label> 
+		<input type="number" name="age" min="5" max="100">
+	</div>
+
+	<div>
+		<label>How nosy do you think is asking someone's age?</label>
+		<select name="level of nosy">
+        <option value="very nosy">extremely nosy, how rude</option>
+        <option value="depends">it all depends!</option>
+        <option value="not nosy">i could care less</option>
+      </select>
+	</div>
+
+	<div>
+		<label>Tell us about your favorite memory at your current age:</label>
+		<textarea rows="4" cols="20">My favorite time ever was when...
+		</textarea>
+	</div></fieldset>
+<fieldset>
+	<p>Ok we don't really care about your age. We would like to inquire more about Your Internet Life. Please answer the following so we can hack you. muahahaha, jk. We will send you our newsletter, once registered</p>	
+
+	<h3>Registration Information</h3>
+	
+	<div>
+		<label>Email:</label>
+		<input type="email" name="email">
+		<label>Password:</label>
+		<input type="Password" name="password">
+	</div>
+	<button>Submit! Right on.</button>
+</fieldset>
+</form>
+</body>
+</html>
