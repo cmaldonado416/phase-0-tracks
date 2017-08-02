@@ -13,3 +13,12 @@
 .accomplishments{
   font-size: .8em;
 }
+
+
+p:first-child {
+  color: red;
+}
+
+.practitioner {
+  font-size: 1.2em;
+}
