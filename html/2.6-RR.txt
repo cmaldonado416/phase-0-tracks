@@ -1,0 +1,30 @@
+Briefly describe your understanding of what the browser does, including definitions of the following:
+
+A browser deals with the approapriate protocol to load a page and display it in a way that is human friendly. Your computer, or the client, reaches out to another computer (the server) and asks it for all the documents, images, and files that you want to display. The site then renders into a site that is human-readable, in other words the all of the documents requested are organized and displayed into one document.
+
+What is HTML? In your answer, include definitions of the following:
+
+HTML is hypertext markup language that tells a browser how to display the contents of a page. The way it does this is through code inclusive of tags, elements, attributes, block elements and inline elements.
+
+tag:these are labels used to mark up the beginning and end of an element
+element: encompasses an opening tag, closing tag and content. An element represents a structure or semantic language
+node: any part of an html docoument is a node
+attribute: an attribute defines a property for an element and appears after a tag elements' start tag/
+block element: an element that occupies the entire space of its parent element or container. for example a <p> tag within the <body>
+inline element: an inline element nests within block level elements and occupies the space bounded by the tags that define the inline element
+
+Very briefly, explain the purpose of the following elements:
+
+head- head tag is an element that contains the title of the document and any metadata related to the document (metadata- key notes, author, content attribute descriptor)
+body- this element contains all of the contents in the html document
+p- a paragraph element represents a paragraph of text
+form- a form element is what allows us to interact with a website and respond to information it requests by submitting a form
+div- defines a division on a page, it is used to group block-elements
+span- the span tag is an inline element that groups together inline elements that you can then style
+select
+h2- a a header tag is an element that displays a header in order of its semantic importance (h1, being more important, h6 being the least)
+ol- an element that displays an ordered list
+ul- an element that displays an unordered list
+table- an element that displays a table
+tr- an element used within a table to define the table rows
+td- an element used within the table rows to define the columns
