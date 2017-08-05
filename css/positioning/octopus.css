@@ -1,0 +1,21 @@
+#glasses {
+  position: fixed;
+  margin-top: 188px;
+  margin-left: 241px;
+  z-index: 2
+}
+
+#hat {
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 185px;
+  z-index: 1
+}
+
+#octopus {
+  position: relative;
+  margin-top: 90px;
+  margin-left: 200px;
+  z-index: -1
+  }
+
