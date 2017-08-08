@@ -1,0 +1,32 @@
+Pseudo-coding
+
+Using an Elevator
+- Walk up to the elevator
+  - search for a button
+  -if going up, press the "up button"
+  -if going down, press the "down button"
+  - if there are no "up or down" buttons, press the button available
+- Wait for the elevator door to open
+- Enter the elevator
+  -if there are other people, wait for them to enter the elevator as well
+- Search for the button pad on the wall adjacent to the elevator door
+  - Search for the desired floor, and press the appropriate button
+  - If you are far away from the buttons, ask the person nearest to them to press the desired floor
+- Wait for the elevator to move
+- When your desired level is reached, exit the elevator
+  - If there are other people around, say excuse me to open a path to exit the elevator
+
+Making Tea
+- Walk down the hall from your room to the kitchen area
+- Pick up electric kettle, to the right of the fridge, and add 1 cup of water from the sink
+  -Place the kettle back on its base and turn on
+  -Wait 5 min
+- Open the cupboard to the right of the fridge
+  -if it's late at night, choose herbal tea
+  - if it's early in the morning, choose black tea
+- Open the cupboard parallel to the cupboard just used, and pull out one mug
+- Place tea bag into the mug
+  - pour hot water above it
+  - if using black tea, remove tea bag after 4 min
+- Enjoy.
+
