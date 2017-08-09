@@ -3,7 +3,7 @@ hamster_name= gets.chomp
 puts "The hamster's name is #{hamster_name}"
 
 puts "What is the volume level: 1 to 10"
-volume_level= gets.chomp
+volume_level= gets.to_i
 puts "The volume level is #{volume_level}"
 
 puts "What is the fur color of the hamster?"
@@ -11,10 +11,23 @@ fur_color= gets.chomp
 puts "The fur color is #{fur_color}"
 
 puts "Is this hamster a good candidate for adoption? yes or no"
-good_bad= gets.chomp
+adoption= gets.chomp
+
+if adoption == "yes"
+  puts "This hamster is a good candidate for adoption"
+elsif adoption == "no"
+  puts "This hamster is not a good candidate for adoption"
+end
+
 
 puts "What is the estimated age of this hamster?"
 age= gets.chomp
+
+if age.nil?
+  puts "left blank"
+elsif
+  puts "The hamster is #{age} years old"
+end
 
 
 
