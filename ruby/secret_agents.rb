@@ -4,4 +4,14 @@
 
 #we will use += 1 to advance the variable defined
 
+index =+ 1
 encrypted_word = "abc"
+
+def encrypt(encrypted_word)
+  puts "Abc advanced by one letter is #{encrypted_word.encrypt}"
+end
+
+
+
+
+
