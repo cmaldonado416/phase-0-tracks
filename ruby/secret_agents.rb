@@ -4,6 +4,8 @@
 
 #we will use += 1 to advance the variable defined
 
+#we will use z index to gives us the next advancement?
+
 index =+ 1
 encrypted_word = "abc"
 
