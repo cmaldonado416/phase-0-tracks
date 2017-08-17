@@ -1,3 +1,15 @@
+#how many employees will be processed?
+puts "How many employees will be processed today?"
+
+employee_number = gets.chomp.to_i
+
+#looping the survey
+
+current_count = 0
+
+until current_count == employee_number
+
+#Survey
 # what is your name
 puts "What is your name?"
 name = gets.chomp
@@ -34,6 +46,8 @@ elsif (current_year - year_born != age) && (garlic == "no" && health_insurance =
   puts "Almost certainly a vampire."
 else
   puts "Results are inconclusive."
-end
+end #end to if statement
 
+current_count += 1
+end  #end to until loop
 
