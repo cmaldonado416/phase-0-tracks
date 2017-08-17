@@ -4,6 +4,8 @@ name = gets.chomp
 
 #how old are you? What year were you born?
 
+current_year = 2017.to_i
+
 puts "How old are you?"
 age = gets.to_i
 
@@ -19,4 +21,19 @@ garlic = gets.chomp
 
 puts "Would you like to enroll in the company's health insurance? (yes or no)"
 health_insurance = gets.chomp
+
+#Release 2: Vampire conditional statements
+
+if name == "Drake Cula" || name == "Tu Fang"
+  puts "Definitely a vampire."
+elsif (current_year - year_born == age) && (garlic == "yes" ||health_insurance ==yes)
+  puts "Probably not a vampire"
+elsif (current_year - year_born != age) && (garlic == "no" || health_insurance == "no")
+  puts "Probably a vampire."
+elsif (current_year - year_born != age) && (garlic == "no" && health_insurance == "no")
+  puts "Almost certainly a vampire."
+else
+  puts "Results are inconclusive."
+end
+
 
