@@ -1,6 +1,5 @@
-#how many employees will be processed?
+#number of employees processed
 puts "How many employees will be processed today?"
-
 employee_number = gets.chomp.to_i
 
 #looping the survey
@@ -9,50 +8,41 @@ current_count = 0
 
 until current_count == employee_number
 
-#Survey
-# what is your name
-puts "What is your name?"
-name = gets.chomp
+    #Survey
+    # what is your name
+    puts "What is your name?"
+    name = gets.chomp
 
-#how old are you? What year were you born?
+    #how old are you? What year were you born?
+    current_year = 2017.to_i
+    puts "How old are you?"
+    age = gets.to_i
+    puts "What year were you born?"
+    year_born = gets.to_i
 
-current_year = 2017.to_i
+    #Our company cafeteria serves garlic bread, should we order some for you?
+    puts "Our company cafeteria serves garlic bread, should we order some for you? (yes or no)"
+    garlic = gets.chomp
 
-puts "How old are you?"
-age = gets.to_i
+    #would you like to enroll in the company's health insurance?
 
-puts "What year were you born?"
-year_born = gets.to_i
+    puts "Would you like to enroll in the company's health insurance? (yes or no)"
+    health_insurance = gets.chomp
 
-#Our company cafeteria serves garlic bread, should we order some for you?
+    #allergies list
 
-puts "Our company cafeteria serves garlic bread, should we order some for you? (yes or no)"
-garlic = gets.chomp
-
-#would you like to enroll in the company's health insurance?
-
-puts "Would you like to enroll in the company's health insurance? (yes or no)"
-health_insurance = gets.chomp
-
-#allergies list
-
-puts "Please list your allergies and type done when finished"
-allergies = gets.chomp
-
-
-#allergies loop
-
-i = 0
-until allergies == "done" || allergies == "sunshine"
-  puts "Please continue to list you allergies, and type done when finished"
+    puts "Please list your allergies and type done when finished"
     allergies = gets.chomp
-      if allergies == "sunshine"
-        puts "Probably a vampire"
-      end
 
 
-
-
+      #allergies loop
+      i = 0
+      until allergies == "done" || allergies == "sunshine"
+        puts "Please continue to list you allergies, and type done when finished"
+          allergies = gets.chomp
+            if allergies == "sunshine"
+              puts "Probably a vampire"
+            end
 
 
 
