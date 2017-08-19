@@ -34,6 +34,28 @@ garlic = gets.chomp
 puts "Would you like to enroll in the company's health insurance? (yes or no)"
 health_insurance = gets.chomp
 
+#allergies list
+
+puts "Please list your allergies and type done when finished"
+allergies = gets.chomp
+
+
+#allergies loop
+
+i = 0
+until allergies == "done" || allergies == "sunshine"
+  puts "Please continue to list you allergies, and type done when finished"
+    allergies = gets.chomp
+      if allergies == "sunshine"
+        puts "Probably a vampire"
+      end
+
+
+
+
+
+
+
 #Release 2: Vampire conditional statements
 
 if name == "Drake Cula" || name == "Tu Fang"
