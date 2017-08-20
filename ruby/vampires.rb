@@ -43,22 +43,22 @@ until current_count == employee_number
             if allergies == "sunshine"
               puts "Probably a vampire"
             end
+      i += 1
 
 
+    #Release 2: Vampire conditional statements
 
-#Release 2: Vampire conditional statements
-
-if name == "Drake Cula" || name == "Tu Fang"
-  puts "Definitely a vampire."
-elsif (current_year - year_born == age) && (garlic == "yes" ||health_insurance ==yes)
-  puts "Probably not a vampire"
-elsif (current_year - year_born != age) && (garlic == "no" || health_insurance == "no")
-  puts "Probably a vampire."
-elsif (current_year - year_born != age) && (garlic == "no" && health_insurance == "no")
-  puts "Almost certainly a vampire."
-else
-  puts "Results are inconclusive."
-end #end to if statement
+    if name == "Drake Cula" || name == "Tu Fang"
+      puts "Definitely a vampire."
+    elsif (current_year - year_born == age) && (garlic == "yes" ||health_insurance ==yes)
+      puts "Probably not a vampire"
+    elsif (current_year - year_born != age) && (garlic == "no" ||     health_insurance == "no")
+      puts "Probably a vampire."
+    elsif (current_year - year_born != age) && (garlic == "no" && health_insurance == "no")
+      puts "Almost certainly a vampire."
+    else
+      puts "Results are inconclusive."
+    end #end to if statement
 
 current_count += 1
 end  #end to until loop
